@@ -14,5 +14,5 @@ const Wrapper = styled.div`
   height: 32px;
   padding: 0px 12px;
   color: var(--black400);
-  background-color: var(--black900);
+  background-color: var(--dark);
 `;

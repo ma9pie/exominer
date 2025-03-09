@@ -3,5 +3,7 @@
   "name": "ExoMiner",
   "start_url": ".",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "theme_color": "#101013",
+  "background_color": "#101013"
 }

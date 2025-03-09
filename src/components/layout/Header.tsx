@@ -25,7 +25,7 @@ const Wrapper = styled.div`
   align-items: center;
   height: 64px;
   padding: 0px 16px;
-  background-color: var(--black900);
+  background-color: var(--dark);
 `;
 const Logo = styled.div`
   height: 48px;
