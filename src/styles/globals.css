@@ -3,10 +3,36 @@
 @import "tailwindcss";
 
 * {
+  color: var(--color);
+  background-color: var(--background);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: var(--black300);
+  }
 }
 
 :root {
+  --color: white;
+  --background: #0f142f;
+
+  --black050: rgb(250, 250, 250);
+  --black100: rgb(245, 245, 245);
+  --black200: rgb(229, 229, 229);
+  --black300: rgb(212, 212, 212);
+  --black400: rgb(163, 163, 163);
+  --black500: rgb(115, 115, 115);
+  --black600: rgb(82, 82, 82);
+  --black700: rgb(64, 64, 64);
+  --black800: rgb(38, 38, 38);
+  --black900: rgb(23, 23, 23);
+  --black950: rgb(10, 10, 10);
 }
