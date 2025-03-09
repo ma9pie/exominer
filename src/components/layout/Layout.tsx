@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import React, { ReactNode } from "react";
+import Favicon from "react-favicon";
 
 import { Footer, Header } from "@/components/layout";
 
@@ -10,6 +11,8 @@ interface Props {
 const Layout = ({ children }: Props) => {
   return (
     <Wrapper>
+      <Title>ExoMiner</Title>
+      <Favicon url="/images/logo/logo.png"></Favicon>
       <Header></Header>
       <Container>{children}</Container>
       <Footer></Footer>
@@ -28,3 +31,4 @@ const Container = styled.div`
   flex: 1;
   padding: 16px;
 `;
+const Title = styled.title``;
