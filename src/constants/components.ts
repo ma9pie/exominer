@@ -1,4 +1,4 @@
-export const COMPONENTS = [
+export const COMPONENT_LIST = [
   {
     key: "carbon",
     name: "탄소",
