@@ -2,5 +2,6 @@
   "short_name": "ExoMiner",
   "name": "ExoMiner",
   "start_url": ".",
-  "display": "standalone"
+  "display": "standalone",
+  "orientation": "portrait"
 }
