@@ -29,6 +29,6 @@ const Wrapper = styled.div`
 `;
 const Container = styled.div`
   flex: 1;
-  padding: 16px;
+  padding: 32px 24px;
 `;
 const Title = styled.title``;
