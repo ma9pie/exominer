@@ -27,5 +27,6 @@ const Wrapper = styled.div`
 const Container = styled.div`
   height: calc(100vh - 64px);
   padding: 32px 24px;
+  overflow-y: auto;
 `;
 const Title = styled.title``;

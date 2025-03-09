@@ -1,3 +1,7 @@
+@import "reset-css";
+@import "normalize.css";
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +14,7 @@
 
   &::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: var(--black300);
+    background: var(--black700);
   }
 }
 
