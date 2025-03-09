@@ -1,6 +1,4 @@
 * {
-  color: var(--color);
-  background-color: var(--background);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
@@ -14,6 +12,11 @@
     border-radius: 12px;
     background: var(--black300);
   }
+}
+
+body {
+  color: var(--color);
+  background-color: var(--background);
 }
 
 :root {

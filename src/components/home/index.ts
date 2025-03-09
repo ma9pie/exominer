@@ -1,1 +1,1 @@
-export { default as Ores } from "./Ores";
+export { default as OreTable } from "./OreTable";

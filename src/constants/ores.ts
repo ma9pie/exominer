@@ -1,101 +1,103 @@
-export const ORES = [
+import { Ore, OreName } from "@/types";
+
+export const ORE_LIST: Ore[] = [
   {
-    key: "carbon",
+    key: OreName.Carbon,
     name: "탄소",
     value: 1,
   },
   {
-    key: "tin",
+    key: OreName.Tin,
     name: "주석",
     value: 2,
   },
   {
-    key: "cobalt",
+    key: OreName.Cobalt,
     name: "코발트",
     value: 4,
   },
   {
-    key: "bismuth",
+    key: OreName.Bismuth,
     name: "비스무트",
     value: 8,
   },
   {
-    key: "cerussite",
+    key: OreName.Cerussite,
     name: "백연금",
     value: 16,
   },
   {
-    key: "manganese",
+    key: OreName.Manganese,
     name: "망간",
     value: 32,
   },
   {
-    key: "einherjer",
+    key: OreName.Einherjer,
     name: "에인헤랴르",
     value: 75,
   },
   {
-    key: "dark-matter",
+    key: OreName.DarkMatter,
     name: "암흑물질",
     value: 160,
   },
   {
-    key: "kriptonite",
+    key: OreName.Kriptonite,
     name: "크립토나이트",
     value: 340,
   },
   {
-    key: "coreium",
+    key: OreName.Coreium,
     name: "코레윰",
     value: 730,
   },
   {
-    key: "cerythium",
+    key: OreName.Cerythium,
     name: "세리튬",
     value: 1600,
   },
   {
-    key: "etherium",
+    key: OreName.Etherium,
     name: "에테륨",
     value: 3500,
   },
   {
-    key: "cosmium",
+    key: OreName.Cosmium,
     name: "코스뮴",
     value: 7800,
   },
   {
-    key: "galaxium",
+    key: OreName.Galaxium,
     name: "갤럭시움",
     value: 17500,
   },
   {
-    key: "mythril",
+    key: OreName.Mythril,
     name: "미스릴",
     value: 40000,
   },
   {
-    key: "xenon",
+    key: OreName.Xenon,
     name: "제논",
     value: 92000,
   },
   {
-    key: "wrayth",
+    key: OreName.Wrayth,
     name: "레이스",
     value: 215000,
   },
   {
-    key: "aurorium",
+    key: OreName.Aurorium,
     name: "오로륨",
     value: 510000,
   },
   {
-    key: "tungsten",
+    key: OreName.Tungsten,
     name: "텅스텐",
     value: 1250000,
   },
   {
-    key: "zyther",
+    key: OreName.Zyther,
     name: "지더",
     value: 3200000,
   },
